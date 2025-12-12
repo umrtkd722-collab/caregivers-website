@@ -1,36 +1,94 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Home Caregivers GA LLC Website
+
+A modern, animated Next.js website for Home Caregivers GA LLC - Professional Painting & Home Improvement Services.
+
+## Features
+
+- ✨ Fully animated with Framer Motion
+- 🎨 Professional theme with blue and amber color scheme
+- 📱 Fully responsive design
+- 📧 Contact form with email API
+- 🚀 Built with Next.js 16, TypeScript, and Tailwind CSS
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
 
+- Node.js 18+ installed
+- npm or yarn
+
+### Installation
+
+1. Install dependencies:
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. (Optional) Configure email for contact form:
+   - Create a `.env.local` file in the root directory
+   - Add your email credentials:
+   ```
+   EMAIL_USER=your-email@gmail.com
+   EMAIL_PASS=your-app-password
+   ```
+   - For Gmail, you'll need to generate an App Password: https://myaccount.google.com/apppasswords
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+3. Run the development server:
+```bash
+npm run dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+4. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-## Learn More
+## Project Structure
 
-To learn more about Next.js, take a look at the following resources:
+```
+caregivers-website/
+├── app/
+│   ├── api/
+│   │   └── contact/          # Contact form API endpoint
+│   ├── layout.tsx            # Root layout
+│   ├── page.tsx              # Main page
+│   └── globals.css           # Global styles
+├── components/
+│   ├── Navbar.tsx            # Navigation bar
+│   ├── Hero.tsx              # Hero section
+│   ├── About.tsx             # About section
+│   ├── Services.tsx          # Services section
+│   ├── Testimonials.tsx      # Testimonials section
+│   ├── Gallery.tsx           # Gallery section
+│   ├── AreasServed.tsx       # Areas served section
+│   ├── Contact.tsx           # Contact section
+│   └── Footer.tsx            # Footer
+└── public/                   # Static assets (add logo here)
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Adding Your Logo
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+1. Place your logo file in the `public/` directory
+2. Update the Navbar component to use your logo:
+   - Open `components/Navbar.tsx`
+   - Replace the text logo with an Image component pointing to your logo
 
-## Deploy on Vercel
+## Deployment
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+The easiest way to deploy is using [Vercel](https://vercel.com):
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1. Push your code to GitHub
+2. Import your repository on Vercel
+3. Add environment variables (EMAIL_USER, EMAIL_PASS) if using email
+4. Deploy!
+
+## Technologies Used
+
+- **Next.js 16** - React framework
+- **TypeScript** - Type safety
+- **Tailwind CSS** - Styling
+- **Framer Motion** - Animations
+- **Nodemailer** - Email sending
+
+## Contact
+
+For questions about the website, contact:
+- Email: gomezhomeservice23@gmail.com
+- Phone: 404-407-5719
