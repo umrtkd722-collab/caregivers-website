@@ -175,17 +175,7 @@ export default function Services() {
           transition={{ delay: 1, duration: 0.8 }}
           className="mt-12 text-center"
         >
-          <p className="text-gray-600 mb-4">
-            View our project gallery on{' '}
-            <a
-              href="https://drive.google.com/drive/folders/1ywJDd1F05e3Eb5GT3q44wwaVmiEsvSuv?usp=sharing"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-primary hover:underline font-semibold"
-            >
-              Google Drive
-            </a>
-          </p>
+     
         </motion.div>
       </div>
     </section>
