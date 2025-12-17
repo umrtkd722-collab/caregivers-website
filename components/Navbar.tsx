@@ -86,7 +86,7 @@ export default function Navbar() {
           {/* Mobile Menu Toggle */}
           <button
             className={`md:hidden transition-colors ${
-              isTransparent ? 'text-white' : 'text-gray-700'
+              isTransparent ? 'text-gray-700' : 'text-gray-700'
             }`}
             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
           >

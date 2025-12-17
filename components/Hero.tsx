@@ -8,7 +8,7 @@ export default function Hero() {
   return (
     <section
       id="home"
-      className="relative min-h-screen flex flex-col justify-center px-4 sm:px-6 lg:px-8 overflow-hidden"
+      className="relative min-h-screen py-12 flex flex-col justify-center px-4 sm:px-6 lg:px-8 overflow-hidden"
       style={{ paddingTop: '80px' }} // ← Yeh sabse important fix hai (navbar ki height ke barabar)
     >
       {/* Gradient Background */}
@@ -29,7 +29,7 @@ export default function Hero() {
       </div>
 
       {/* Main Content Container - Two Column Layout */}
-      <div className="relative z-10 max-w-7xl mx-auto w-full">
+      <div className="relative z-10 max-w-6xl mx-auto w-full">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center">
           {/* Left Side - Text Content */}
           <motion.div
