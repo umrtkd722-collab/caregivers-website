@@ -45,7 +45,7 @@ export default function Navbar() {
         <div className="flex justify-around items-center h-20">
           {/* Logo */}
           <motion.div whileHover={{ scale: 1.05 }} className="flex items-center">
-          <Image src="/logo.png" alt="Logo" width={100} height={100} />
+          <Image src="/logo2.png" alt="Logo" width={140} height={140} />
            
           </motion.div>
 
