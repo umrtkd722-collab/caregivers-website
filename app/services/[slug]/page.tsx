@@ -1,3 +1,4 @@
+import type { Metadata } from 'next';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import Link from 'next/link';
@@ -263,6 +264,25 @@ const serviceDetails: Record<string, {
     ],
   },
 };
+
+export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
+  const { slug } = await params;
+  const service = serviceDetails[slug] || {
+    title: 'Service',
+    description: 'Professional home care service for your home improvement needs.',
+  };
+
+  return {
+    title: `${service.title} - Home Caregivers Care | Home Care Services`,
+    description: `Home Caregivers Care provides ${service.title.toLowerCase()} - ${service.description} Professional home care and home improvement services for your home.`,
+    keywords: `Caregivers Care, home, ${service.title.toLowerCase()}, home care, home improvement, home services, home care services, North Atlanta home care`,
+    openGraph: {
+      title: `${service.title} - Home Caregivers Care`,
+      description: `Professional home care service: ${service.description}`,
+      type: 'website',
+    },
+  };
+}
 
 export default async function ServiceDetailPage({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;

@@ -40,16 +40,16 @@ export default function Hero() {
           >
             {/* Heading - Mobile par chhota, Desktop par bada */}
             <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-5xl font-bold text-white leading-tight">
-              Home Caregivers GA LLC
+              Home Caregivers Care - Your Trusted Home Care Partner
             </h1>
 
             {/* Subheading */}
             <p className="text-lg sm:text-xl md:text-2xl text-blue-100 max-w-3xl lg:max-w-none">
-              14 Years of Excellence in Professional Painting & Home Improvement Services
+              Professional Home Care & Home Improvement Services - 14 Years of Excellence
             </p>
 
             <p className="text-base sm:text-lg md:text-xl text-blue-50 max-w-2xl lg:max-w-none">
-              From initial planning to flawless execution, we guarantee quality and experience for your home or business.
+              Home Caregivers Care provides comprehensive home care solutions. From home painting to home renovation, we deliver quality home improvement services for your home. Trusted home care professionals serving North Atlanta.
             </p>
 
             {/* Buttons - Mobile par full width ya better spacing */}

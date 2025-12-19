@@ -81,11 +81,11 @@ export default function About() {
           className="text-center mb-16"
         >
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4 font-heading">
-            About Us
+            About Home Caregivers Care
           </h2>
           <div className="w-24 h-1 bg-primary mx-auto mb-8"></div>
           <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-            Home Caregivers GA LLC® began with the vision of making residential and commercial painting services easier and more convenient for home and business owners.
+            Home Caregivers Care (Home Caregivers GA LLC®) began with the vision of making residential and commercial home care services easier and more convenient for home and business owners. We provide comprehensive home care and home improvement solutions.
           </p>
         </motion.div>
 
@@ -98,10 +98,10 @@ export default function About() {
           <div className="bg-gradient-to-r from-blue-50 to-amber-50 rounded-2xl p-8 md:p-12 flex flex-col md:flex-row gap-8 items-center">
             <div className="flex-1">
               <p className="text-lg text-gray-700 leading-relaxed mb-6">
-                From the beginning, our promise has been that of certainty, with the aim of guaranteeing customers our quality and experience. Our team is made up of passionate and dedicated professionals who are committed to excellence every step of the way, using high quality materials, and always treating your home with respect.
+                From the beginning, Home Caregivers Care's promise has been that of certainty, with the aim of guaranteeing customers our quality and experience in home care services. Our team is made up of passionate and dedicated professionals who are committed to excellence in every home care project, using high quality materials, and always treating your home with respect.
               </p>
               <p className="text-lg text-gray-700 leading-relaxed">
-                We are proud to offer a wide range of services, covering each phase of the process with mastery and precision. From initial planning to flawless execution and finishing touches, each project is treated with the highest level of attention and care.
+                We are proud to offer a wide range of home care and home improvement services, covering each phase of the process with mastery and precision. From initial planning to flawless execution and finishing touches, each home care project is treated with the highest level of attention and care for your home.
               </p>
             </div>
             <div className="relative w-full md:w-96 h-64 rounded-xl overflow-hidden shadow-lg">
